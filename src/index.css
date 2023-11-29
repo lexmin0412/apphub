@@ -1,3 +1,16 @@
 /* @tailwind base; */
 @tailwind components;
 @tailwind utilities;
+
+body {
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+/* css extends start */
+.ellipsis-single {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+/* css extends end */
